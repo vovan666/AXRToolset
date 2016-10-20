@@ -33,8 +33,8 @@ function cUICoCDBTool:Reinit()
 	self:Gui("Add|Tab2|x0 y0 w1024 h720 AltSubmit vUICoCDBToolTab|Unpacker^Repacker 1^Repacker 2^Repacker 3^Repacker 4^Repacker 5^Repacker 6^Repacker 7^Repacker 8^Repacker 9^Repacker 10")
 	self:Gui("Tab|Unpacker")
 		-- GroupBox
-		self:Gui("Add|GroupBox|x10 y50 w510 h75|Input Path (Recursive)")
-		self:Gui("Add|GroupBox|x10 y150 w510 h75|Output Path")
+		self:Gui("Add|GroupBox|x10 y50 w510 h75|Input Path (Recursive)")C:\S.T.A.L.K.E.R. - Call of Chernobyl
+		self:Gui("Add|GroupBox|x10 y150 w510 h75|Output Path")C:\
 		
 		-- Buttons 
 		self:Gui("Add|Button|gOnScriptControlAction x485 y80 w30 h20 vUICoCDBToolBrowseInputPath|...")
